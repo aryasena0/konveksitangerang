@@ -11,7 +11,6 @@ import {
 } from "@/config/app.config";
 import Image from "next/image";
 import ProductFeature from "@/components/Product/ProductFeature";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import Maps from "@/components/Maps";
 import BaseLayout from "@/layouts/BaseLayout";
