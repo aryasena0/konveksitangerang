@@ -1,4 +1,6 @@
 import type { ProductType } from "@/interfaces/product";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { FaTiktok } from "react-icons/fa";
 
 import bomber1 from "@/assets/images/bomber/one.jpg";
 import bomber2 from "@/assets/images/bomber/two.jpg";
@@ -23,6 +25,19 @@ import pdl_pdh7 from "@/assets/images/pdl_pdh/seven.jpg";
 import almamater1 from "@/assets/images/almamater/one.jpg";
 import almamater2 from "@/assets/images/almamater/two.jpg";
 import { openWhatsapp } from "@/utils";
+
+export const socials = [
+  {
+    name: "Instagram",
+    href: "",
+    icon: AiOutlineInstagram,
+  },
+  {
+    name: "Tiktok",
+    href: "",
+    icon: FaTiktok,
+  },
+];
 
 export const bomberImage = {
   1: bomber1,
