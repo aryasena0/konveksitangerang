@@ -1,4 +1,4 @@
-import { StaticImageData } from "next/image";
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 export type ProductType = {
   id: number | string;
@@ -6,6 +6,6 @@ export type ProductType = {
   name: string;
   href: string;
   description: string;
-  imageSrc: string | string[] | StaticImageData | StaticImageData[];
+  imageSrc: any;
   imageAlt: string;
 };

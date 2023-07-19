@@ -3,15 +3,7 @@ import { catalogsDetailData } from "@/config/app.config";
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";
 import BaseLayout from "@/layouts/BaseLayout";
-import { useState } from "react";
-import {
-  CheckIcon,
-  QuestionMarkCircleIcon,
-  StarIcon,
-} from "@heroicons/react/20/solid";
-import { RadioGroup } from "@headlessui/react";
-import { ShieldCheckIcon } from "@heroicons/react/24/outline";
-import { clsxm } from "@/utils/strings";
+import { CheckIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import { openWhatsapp } from "@/utils";
 
@@ -93,7 +85,7 @@ const CatalogDetailPage = () => {
             <div className="mt-10 lg:col-start-2 lg:row-span-2 lg:mt-0 lg:self-center">
               <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg">
                 <Image
-                  src={selectedProduct.imageSrc[1] as string}
+                  src={selectedProduct.imageSrc[0] as string}
                   alt={selectedProduct.imageAlt}
                   className="h-full w-full object-cover object-center"
                 />

@@ -1,4 +1,3 @@
-import type { StaticImageData } from "next/image";
 import type { ProductType } from "@/interfaces/product";
 
 import bomber1 from "@/assets/images/bomber/one.jpg";
@@ -26,31 +25,31 @@ import almamater2 from "@/assets/images/almamater/two.jpg";
 import { openWhatsapp } from "@/utils";
 
 export const bomberImage = {
-  1: bomber1 as string | StaticImageData,
-  2: bomber2 as string | StaticImageData,
-  3: bomber3 as string | StaticImageData,
-  4: bomber4 as string | StaticImageData,
-  5: bomber5 as string | StaticImageData,
+  1: bomber1,
+  2: bomber2,
+  3: bomber3,
+  4: bomber4,
+  5: bomber5,
 };
 export const varsityImage = {
-  1: varsity1 as string | StaticImageData,
-  2: varsity2 as string | StaticImageData,
-  3: varsity3 as string | StaticImageData,
-  4: varsity4 as string | StaticImageData,
-  5: varsity5 as string | StaticImageData,
+  1: varsity1,
+  2: varsity2,
+  3: varsity3,
+  4: varsity4,
+  5: varsity5,
 };
 export const pdl_pdhImage = {
-  1: pdl_pdh1 as string | StaticImageData,
-  2: pdl_pdh2 as string | StaticImageData,
-  3: pdl_pdh3 as string | StaticImageData,
-  4: pdl_pdh4 as string | StaticImageData,
-  5: pdl_pdh5 as string | StaticImageData,
-  6: pdl_pdh6 as string | StaticImageData,
-  7: pdl_pdh7 as string | StaticImageData,
+  1: pdl_pdh1,
+  2: pdl_pdh2,
+  3: pdl_pdh3,
+  4: pdl_pdh4,
+  5: pdl_pdh5,
+  6: pdl_pdh6,
+  7: pdl_pdh7,
 };
 export const almamaterImage = {
-  1: almamater1 as string | StaticImageData,
-  2: almamater2 as string | StaticImageData,
+  1: almamater1,
+  2: almamater2,
 };
 
 export const adminWhatsappNumber = "6282114875129";
