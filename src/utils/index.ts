@@ -11,6 +11,9 @@ export function openWhatsapp(
       return `https://wa.me/${adminWhatsappNumber}?text=Halo%20kak%20saya%20mau%20order%20produk%20di%20konveksitangerang.id`;
     }
   } else {
-    window.open(`https://wa.me/${adminWhatsappNumber}`, "_blank");
+    window.open(
+      `https://wa.me/${adminWhatsappNumber}?text=Halo%20saya%20ingin%20pesan%20${product}`,
+      "_blank"
+    );
   }
 }
