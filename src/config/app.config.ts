@@ -1,28 +1,28 @@
 import type { StaticImageData } from "next/image";
 import type { ProductType } from "@/interfaces/product";
 
-import bomber1 from "@/assets/images/bomber/1.JPG";
-import bomber2 from "@/assets/images/bomber/2.JPG";
-import bomber3 from "@/assets/images/bomber/3.JPG";
-import bomber4 from "@/assets/images/bomber/4.JPG";
-import bomber5 from "@/assets/images/bomber/5.JPG";
+import bomber1 from "@/assets/images/bomber/one.jpg";
+import bomber2 from "@/assets/images/bomber/two.jpg";
+import bomber3 from "@/assets/images/bomber/three.jpg";
+import bomber4 from "@/assets/images/bomber/four.jpg";
+import bomber5 from "@/assets/images/bomber/five.jpg";
 
-import varsity1 from "@/assets/images/varsity/1.JPG";
-import varsity2 from "@/assets/images/varsity/2.JPG";
-import varsity3 from "@/assets/images/varsity/3.JPG";
-import varsity4 from "@/assets/images/varsity/4.JPG";
-import varsity5 from "@/assets/images/varsity/5.JPEG";
+import varsity1 from "@/assets/images/varsity/one.jpg";
+import varsity2 from "@/assets/images/varsity/two.jpg";
+import varsity3 from "@/assets/images/varsity/three.jpg";
+import varsity4 from "@/assets/images/varsity/four.jpg";
+import varsity5 from "@/assets/images/varsity/five.jpg";
 
-import pdl_pdh1 from "@/assets/images/pdl_pdh/1.JPG";
-import pdl_pdh2 from "@/assets/images/pdl_pdh/2.JPG";
-import pdl_pdh3 from "@/assets/images/pdl_pdh/3.JPG";
-import pdl_pdh4 from "@/assets/images/pdl_pdh/4.JPG";
-import pdl_pdh5 from "@/assets/images/pdl_pdh/5.JPG";
-import pdl_pdh6 from "@/assets/images/pdl_pdh/6.JPG";
-import pdl_pdh7 from "@/assets/images/pdl_pdh/7.JPG";
+import pdl_pdh1 from "@/assets/images/pdl_pdh/one.jpg";
+import pdl_pdh2 from "@/assets/images/pdl_pdh/two.jpg";
+import pdl_pdh3 from "@/assets/images/pdl_pdh/three.jpg";
+import pdl_pdh4 from "@/assets/images/pdl_pdh/four.jpg";
+import pdl_pdh5 from "@/assets/images/pdl_pdh/five.jpg";
+import pdl_pdh6 from "@/assets/images/pdl_pdh/six.jpg";
+import pdl_pdh7 from "@/assets/images/pdl_pdh/seven.jpg";
 
-import almamater1 from "@/assets/images/almamater/1.JPG";
-import almamater2 from "@/assets/images/almamater/2.JPG";
+import almamater1 from "@/assets/images/almamater/one.jpg";
+import almamater2 from "@/assets/images/almamater/two.jpg";
 import { openWhatsapp } from "@/utils";
 
 export const bomberImage = {
@@ -64,14 +64,14 @@ export const navigation = {
         {
           name: "Featured",
           href: openWhatsapp("href", "Varsity"),
-          imageSrc: varsity5 as string,
+          imageSrc: varsity5,
           imageAlt:
             "Drawstring top with elastic loop closure and textured interior padding.",
         },
         {
           name: "Featured",
           href: openWhatsapp("href", "Bomber"),
-          imageSrc: bomber4 as string,
+          imageSrc: bomber4,
           imageAlt:
             "Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.",
         },
@@ -161,7 +161,7 @@ export const products = [
     href: "/catalog/varsity",
     price: "$13",
     description: "3 sizes available",
-    imageSrc: varsity1 as string,
+    imageSrc: varsity1,
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -171,7 +171,7 @@ export const products = [
     href: "/catalog/almamater",
     price: "$64",
     description: "Walnut",
-    imageSrc: almamater1 as string,
+    imageSrc: almamater1,
     imageAlt: "Paper card sitting upright in walnut card holder on desk.",
   },
   {
@@ -180,7 +180,7 @@ export const products = [
     href: "/catalog/pdl_pdh",
     price: "$32",
     description: "Heather Gray",
-    imageSrc: pdl_pdh2 as string,
+    imageSrc: pdl_pdh2,
     imageAlt:
       "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
   },
@@ -190,7 +190,7 @@ export const products = [
     href: "/catalog/bomber",
     price: "$32",
     description: "Heather Gray",
-    imageSrc: bomber1 as string,
+    imageSrc: bomber1,
     imageAlt:
       "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
   },
