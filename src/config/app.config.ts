@@ -29,12 +29,12 @@ import { openWhatsapp } from "@/utils";
 export const socials = [
   {
     name: "Instagram",
-    href: "",
+    href: "https://www.instagram.com/konveksitangerang.id/",
     icon: AiOutlineInstagram,
   },
   {
     name: "Tiktok",
-    href: "",
+    href: "https://www.tiktok.com/@konveksitangerangid",
     icon: FaTiktok,
   },
 ];
