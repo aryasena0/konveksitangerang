@@ -3,6 +3,7 @@ import { clsxm } from "@/utils/strings";
 import { Dialog, Tab, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
+import Link from "next/link";
 import React, { Fragment, useState } from "react";
 
 const Navbar = () => {
@@ -158,7 +159,7 @@ const Navbar = () => {
         className="relative z-20 bg-white bg-opacity-90 shadow-md backdrop-blur-xl backdrop-filter"
       >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-16 items-center">
+          <div className="flex h-16 w-full items-center justify-between md:justify-start">
             <button
               type="button"
               className="rounded-md bg-white p-2 text-gray-400"
@@ -170,15 +171,15 @@ const Navbar = () => {
 
             {/* Logo */}
             <div className="ml-4 flex lg:ml-0">
-              <a href="#">
-                <span className="sr-only">Your Company</span>
-                <Image
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=zinc&shade=600"
-                  alt=""
-                />
-              </a>
+              <Link href="/">
+                <h1 className="text-xl font-bold md:ml-3">
+                  Konveksitangerang.id
+                </h1>
+              </Link>
             </div>
+            <button type="button" className="w-6" onClick={() => setOpen(true)}>
+              {""}
+            </button>
           </div>
         </div>
       </nav>
