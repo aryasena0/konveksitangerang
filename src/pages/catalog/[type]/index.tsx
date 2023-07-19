@@ -8,6 +8,8 @@ import BaseLayout from "@/layouts/BaseLayout";
 import { CheckIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import { openWhatsapp } from "@/utils";
+import Link from "next/link";
+import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 
 const CatalogDetailPage = () => {
   const [selectedProduct, setSelectedProduct] = React.useState<
@@ -33,12 +35,16 @@ const CatalogDetailPage = () => {
                 <ol role="list" className="flex items-center space-x-2">
                   <li key={selectedProduct.id}>
                     <div className="flex items-center text-sm">
-                      <a
-                        href={selectedProduct.href}
-                        className="font-medium text-gray-500 hover:text-gray-900"
+                      <Link
+                        href="/catalog"
+                        className="flex items-center space-x-2 font-medium text-gray-500 hover:text-gray-900"
                       >
-                        {selectedProduct.name}
-                      </a>
+                        <ArrowLeftIcon
+                          className="h-4 w-4 flex-shrink-0 text-gray-400"
+                          aria-hidden="true"
+                        />
+                        <span>Kembali</span>
+                      </Link>
                       {/* {selectedProduct !== selectedProduct.length - 1 ? (
                         <svg
                           viewBox="0 0 20 20"
