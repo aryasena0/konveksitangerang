@@ -28,7 +28,7 @@ const Footer = () => {
             ))}
           </div>
           <p className="text-sm text-gray-500">
-            Copyright &copy; 2023 Konveksi tangerang.
+            Copyright &copy; 2023 Konveksitangerang.id
           </p>
         </div>
       </div>
