@@ -172,7 +172,7 @@ const Navbar = () => {
             <div className="ml-4 flex lg:ml-0">
               <a href="#">
                 <span className="sr-only">Your Company</span>
-                <img
+                <Image
                   className="h-8 w-auto"
                   src="https://tailwindui.com/img/logos/mark.svg?color=zinc&shade=600"
                   alt=""

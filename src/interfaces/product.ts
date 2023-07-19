@@ -1,4 +1,4 @@
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 export type ProductType = {
   id: number | string;

@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
+
 import type { ProductType } from "@/interfaces/product";
 import { catalogsDetailData } from "@/config/app.config";
 import { useRouter } from "next/router";
