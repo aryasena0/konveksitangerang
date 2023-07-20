@@ -219,7 +219,7 @@ export const catalogsDetailData: ProductType[] = [
     id: 1,
     type: "varsity",
     name: "Varsity",
-    description: `Varsitty jaket,  adalah salah satu jenis jaket yang sedang trand saat ini.
+    description: `Varsity jaket,  adalah salah satu jenis jaket yang sedang trand saat ini.
       Jenis jaket yang berbahan lembut lembut seperti fleece atau buddy terry dan dapat di kombinasikan 
       Dengan bahan leather ini  sering di sebut juga sebagai jaket baseball .
       Varsity jacket juga identik dengan variasi warna yang mencolok di tambah dengan Bordir yang ktia berikan Free 4 titik. Dengan gambar yang bebas sesuai keretifitas kalian,
@@ -247,7 +247,7 @@ export const catalogsDetailData: ProductType[] = [
     id: 3,
     type: "pdl_pdh",
     name: "PDL/PDH",
-    description: `PDH/PDL merupakan jenis pakaian yang sering di gunakan saat melakukan dinas/tugas 
+    description: `PDL/PDH merupakan jenis pakaian yang sering di gunakan saat melakukan dinas/tugas 
       Sesuai lokasi, PDH( Pakaian dinas haria) sering di gunakan saat acara sehari-hari  di dalam ruangan adapun PDL(Pakaian Dinas Lapangan) di gunakan saat acara di luar/outdoor  . jenis bahan yang sering di gunakan berbahan Drill.  Adapun jenis bahan yang sering di gunakan antara lain American drill/Japan drill`,
     imageSrc: [
       pdl_pdh1,
