@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 
 import type { ProductType } from "@/interfaces/product";
@@ -45,16 +46,6 @@ const CatalogDetailPage = () => {
                         />
                         <span>Kembali</span>
                       </Link>
-                      {/* {selectedProduct !== selectedProduct.length - 1 ? (
-                        <svg
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          aria-hidden="true"
-                          className="ml-2 h-5 w-5 flex-shrink-0 text-gray-300"
-                        >
-                          <path d="M5.555 17.776l8-16 .894.448-8 16-.894-.448z" />
-                        </svg>
-                      ) : null} */}
                     </div>
                   </li>
                 </ol>
@@ -119,6 +110,24 @@ const CatalogDetailPage = () => {
                   </div>
                 </form>
               </section>
+            </div>
+            <div className="mt-10 grid grid-cols-2 gap-4 lg:col-start-2 lg:row-span-2 lg:mt-4 lg:self-center">
+              {selectedProduct.imageSrc.map(
+                (image: any, index: number) =>
+                  !(index === 0) && (
+                    <div
+                      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+                      key={index}
+                      className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg"
+                    >
+                      <Image
+                        src={image as string}
+                        alt={selectedProduct.imageAlt}
+                        className="h-full w-full object-cover object-center"
+                      />
+                    </div>
+                  )
+              )}
             </div>
           </div>
         </div>

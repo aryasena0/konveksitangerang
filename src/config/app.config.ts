@@ -174,7 +174,7 @@ export const products = [
     name: "Varsity",
     href: "/catalog/varsity",
     price: "$13",
-    description: "3 sizes available",
+    description: "Click to see detail",
     imageSrc: varsity1,
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
@@ -184,7 +184,7 @@ export const products = [
     name: "Almamater",
     href: "/catalog/almamater",
     price: "$64",
-    description: "Walnut",
+    description: "Click to see detail",
     imageSrc: almamater1,
     imageAlt: "Paper card sitting upright in walnut card holder on desk.",
   },
@@ -193,7 +193,7 @@ export const products = [
     name: "PDL/PDH",
     href: "/catalog/pdl_pdh",
     price: "$32",
-    description: "Heather Gray",
+    description: "Click to see detail",
     imageSrc: pdl_pdh2,
     imageAlt:
       "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
@@ -203,7 +203,7 @@ export const products = [
     name: "Bomber",
     href: "/catalog/bomber",
     price: "$32",
-    description: "Heather Gray",
+    description: "Click to see detail",
     imageSrc: bomber1,
     imageAlt:
       "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",

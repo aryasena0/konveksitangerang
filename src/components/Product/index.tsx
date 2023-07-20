@@ -28,7 +28,7 @@ const Product = ({ product }: { product: ProductType }) => {
       <div className="mt-4 flex items-center justify-between text-base font-medium text-gray-900">
         <h3>{product.name}</h3>
       </div>
-      <p className="mt-1 text-sm italic text-gray-500">{product.description}</p>
+      <p className="mt-1 text-sm italic text-gray-500 underline">{product.description}</p>
     </Link>
   );
 };
