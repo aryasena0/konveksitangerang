@@ -218,7 +218,7 @@ export const catalogsDetailData: ProductType[] = [
   {
     id: 1,
     type: "varsity",
-    name: "Varsity"
+    name: "Varsity",
     description: `Varsity jaket,  adalah salah satu jenis jaket yang sedang trend saat ini.
       Jenis jaket yang berbahan lembut seperti fleece atau buddy terry dan dapat di kombinasikan 
       Dengan bahan leather ini  sering di sebut juga sebagai jaket baseball .
