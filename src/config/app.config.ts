@@ -218,11 +218,11 @@ export const catalogsDetailData: ProductType[] = [
   {
     id: 1,
     type: "varsity",
-    name: "Varsity",
-    description: `Varsity jaket,  adalah salah satu jenis jaket yang sedang trand saat ini.
-      Jenis jaket yang berbahan lembut lembut seperti fleece atau buddy terry dan dapat di kombinasikan 
+    name: "Varsity"
+    description: `Varsity jaket,  adalah salah satu jenis jaket yang sedang trend saat ini.
+      Jenis jaket yang berbahan lembut seperti fleece atau buddy terry dan dapat di kombinasikan 
       Dengan bahan leather ini  sering di sebut juga sebagai jaket baseball .
-      Varsity jacket juga identik dengan variasi warna yang mencolok di tambah dengan Bordir yang ktia berikan Free 4 titik. Dengan gambar yang bebas sesuai keretifitas kalian,
+      Varsity jacket juga identik dengan variasi warna yang mencolok di tambah dengan Bordir yang kita berikan Free 4 titik. Dengan gambar yang bebas sesuai keretifitas kalian,
       Adapun variasi lain seperti bahan dalam jaket yang di gunakan Furing`,
     imageSrc: [varsity1, varsity2, varsity3, varsity4, varsity5],
     imageAlt:
